@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+h1, h2 {
+    font-family: 'Bitter', serif;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 26px;
+    font-weight: 500;
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+header, section {
+    padding: 5px 15px;
+}
+
+section {
+    box-shadow: 10px 7px 20px grey;
+    margin-bottom: 30px;
+}
+
+div {
+    display: inline-block;
+    margin: 15px 30px;
+}
+
+p {
+    font-size: 18px
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.color-block {
+    font-family: 'Roboto', sans-serif;
+    width: 300px;
+    padding: 30px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.font-block {
+    font-size: 20px;
+    width: 500px;
+    text-align: left;
+    padding-bottom: 30px;
+}
+
+.bitter-font {
+    font-family: 'Bitter', serif;
+}
+
+.roboto-font {
+    font-family: 'Roboto', sans-serif;
+}
+
+#dark-grey p, #steely-blue p
+{
+    color: #f3f1e8;
+}
+
+#offwhite p, #cosmic-latte p{
+    color: #3e3e3e
+}
+
+#dark-grey {
+    background-color: #3e3e3e;
+}
+
+#steely-blue {
+    background-color: #283550;
+}
+
+#offwhite {
+    background-color: #f3f1e8;
+}
+
+#cosmic-latte {
+    background-color: #fff8e7;
+}
